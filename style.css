@@ -1,0 +1,245 @@
+li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+body {
+  font-family: arial, sans-serif;
+}
+.header-a-tag {
+  text-decoration: none;
+  color: rgba(0,0,0,.87);
+  font-family: arial,sans-serif;
+  font-size: 13px;
+}
+.header-a-tag:hover{
+  text-decoration: underline;
+}
+.header-a-tag:visited {
+  text-decoration: none;
+  color: black;
+}
+.header-a-tag:active {
+  text-decoration: none;
+  color: black;
+}
+.main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+.image {
+  display: flex;
+  justify-content: center;
+  margin-top: 3px;
+  margin-bottom: 25px;
+}
+.search-bar {
+  border: 1px solid #dfe1e5;
+  height: 25px;
+  border-radius: 26px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 584px;
+  border: 1px solid #dfe1e5;
+  margin-bottom: 25px;
+}
+  
+i {
+  color: #9aa0a6;
+}
+::before {
+  margin-left: 10px;
+}
+.search-bar:hover{
+  box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
+.search-bar input {
+  width: 100%;
+  border: none;
+  box-shadow: none;
+  outline: none !important;
+  margin-left: 15px;
+  font-size: 16px;
+ 
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+.button input:hover{
+  box-shadow: 0 1px 1px rgba(0,0,0,.1);
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+.button input:focus{
+  border: 1px solid #4285f4;
+  outline: none;
+}
+
+.button input{
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 5px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  padding-block: 1px;
+  padding-inline: 6px;
+}
+#other-lang {
+  color: #4d5156;
+  display: inline-block;
+  line-height: 28px;
+  font-size: small;
+  font-family: arial,sans-serif;
+  margin-top: 15px;
+}
+#other-lang a {
+  padding: 0 3px;
+  color: #1a0dab;
+  text-decoration: none;
+}
+#other-lang a:hover {
+  text-decoration: underline;
+}
+#advanced_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-size: small;
+}
+#google-text {
+  height: 24px;
+  cursor: pointer;
+}
+h2 {
+  color: #d93025;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-weight: normal;
+}
+.adv_search {
+  margin: 25px 20px;
+}
+.divider {
+  vertical-align: baseline;
+  border-bottom: 1px solid #ebebeb;
+}
+.info-row {
+  display: flex;
+  align-items: center;
+  max-width: 1140px;
+  min-width: 200px;
+  width: 96%;
+  margin: 40px 2% 30px 40px;
+}
+.input-row {
+  display: flex;
+  align-items: center;
+  max-width: 1140px;
+  min-width: 200px;
+  width: 96%;
+  margin: 15px 2% 0 42px;
+}
+.description {
+  font-size: 16px;
+  min-width: 167px;
+  width: 16%;
+  font-weight: 500;
+  color: #333;
+}
+
+.blank-space {
+  min-width: 175px;
+  width: 50%;
+}
+.instruction {
+  color: #777;
+  font-weight: bold;
+  font-size: 13px;margin-left: 20px;
+}
+.text_description {
+  width: 200px;
+  font-size: 13px;
+}
+.input_feild {
+  min-width: 167px;
+  width: 50%;
+}
+.input_feild input {
+  border-radius: 1px;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  font-size: 13px;
+  height: 25px;
+  padding: 1px 8px;
+  width: 100%;
+}
+.input_feild input:focus {
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.3);
+  border: 1px solid #4d90fe;
+  outline: none;
+}
+.example {
+  width: 32%;
+  min-width: 160px;
+  color: #555;
+  font-size: 11px;
+  padding-left: 30px;
+}
+span {
+  color: #666;
+  font-family: monospace;
+  font-size: 11px;
+  white-space: pre;
+}
+.adv_button {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.adv_button input {
+  background-color: #4d90fe;
+  color: white;
+  height: 30px;
+  min-width: 120px;
+  border: 1px solid #3079ed;
+  color: #fff;
+  border-radius: 2px;
+  font-size: 11px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.adv_button input:hover {
+  background-color: #357ae8;
+  border: 1px solid #2f5bb7;
+}
+.adv_button input:active {
+  background-color: #357ae8;
+  border: 1px solid #2f5bb7;
+  border-top: 1px solid #2f5bb7;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.3);
+}
+.adv_button input:focus {
+  background-color: #4d90fe;
+  box-shadow: inset 0 0 0 1px #fff;
+  border: rgba(0,0,0,0) solid 1px;
+  outline: rgba(0,0,0,0) 0;
+}
