@@ -1,3 +1,7 @@
 # project-0
 Harvard's CS50w Web programming with Python and Javascript.
-Cloned Google Search page, Google Image Search page and Google Advanced Search page.
+A clone of Google Search, Google Advanced Search and Google Image Search page using Html and CSS.
+
+To launch the web application, clone the repository by typing the command git clone https://github.com/monokpe/project-0/
+
+Then open the index.html file with liveserver.
